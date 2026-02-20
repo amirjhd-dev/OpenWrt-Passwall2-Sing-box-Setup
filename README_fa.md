@@ -87,15 +87,13 @@ cd /usr/share/v2ray/
 
 سپس فایل‌ها را دانلود کنید:
 
-```text
-Iran Geosite
-```
+## Iran Geosite
+
 ```bash
 wget https://cdn.jsdelivr.net/gh/Chocolate4U/Iran-sing-box-rules@rule-set/geosite-ir.srs
 ```
-```text
-Iran GeoIP
-```
+## Iran GeoIP
+
 ```bash
 wget https://cdn.jsdelivr.net/gh/Chocolate4U/Iran-sing-box-rules@rule-set/geoip-ir.srs
 ```
