@@ -122,7 +122,19 @@ In the same **Rule Manager** page, set the following fields:
 | Geosite Update URL | `Chocolate4U/gesite (IR)` |
 
 > With these settings, Passwall2 will automatically split Iran and international traffic, and any rule updates will be applied automatically.
+4️⃣ Configure Node and Shunt
 
+After creating the IranIPsExceptions rule:
+
+Go to Passwall2 → Node.
+
+Create a Shunt node.
+
+Set IranIPsExceptions rule to Direct in the Shunt.
+
+Set the Default node to your main node (the default proxy or main connection).
+
+This ensures all traffic matching IranIPsExceptions goes direct while all other traffic follows the default node.
 
 ## Notes
 
