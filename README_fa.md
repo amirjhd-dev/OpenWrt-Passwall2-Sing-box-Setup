@@ -135,6 +135,5 @@ Default Node را روی نود اصلی خود (پروکسی یا اتصال ا
 در این حالت، تمام ترافیک منطبق با IranIPsExceptions به‌صورت مستقیم ارسال شده و سایر ترافیک‌ها از طریق نود پیش‌فرض عبور خواهند کرد.
 
 ## Notes
-
-* نوشته و نگهداری شده توسط AmirJhd-dev.
-* الهام‌گرفته از مستندات رسمی OpenWrt و Passwall2.
+. Written and maintained by AmirJhd-dev.
+. Inspired by official OpenWrt and Passwall2 documentation.
