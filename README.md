@@ -6,10 +6,10 @@ This guide explains how to set up Passwall2 on OpenWrt with Sing-box and configu
 ## 1️⃣ Connect to Router
 
 ```bash
-ssh root@192.168.123.1
+ssh root@192.168.xx.xx
 ```
 
-> Replace `192.168.123.1` with your router IP.
+> Replace `192.168.xx.xx` with your router IP.
 
 ## 2️⃣ Update Package List
 
@@ -21,6 +21,8 @@ opkg update
 
 ```bash
 opkg remove dnsmasq
+```
+```bash
 opkg install dnsmasq-full
 ```
 
@@ -34,6 +36,8 @@ opkg install kmod-nft-tproxy kmod-nft-socket
 
 ```bash
 wget -O passwall.pub https://master.dl.sourceforge.net/project/openwrt-passwall-build/passwall.pub
+```
+```bash
 opkg-key add passwall.pub
 ```
 
@@ -53,6 +57,8 @@ done
 
 ```bash
 opkg update
+```
+```bash
 opkg install luci-app-passwall2 sing-box wget-ssl
 ```
 
@@ -81,11 +87,16 @@ cd /usr/share/v2ray/
 
 Then download the files:
 
+```text
+Iran Geosite
+```
 ```bash
-# Iran Geosite
 wget https://cdn.jsdelivr.net/gh/Chocolate4U/Iran-sing-box-rules@rule-set/geosite-ir.srs
-
-# Iran GeoIP
+```
+```text
+Iran GeoIP
+```
+```bash
 wget https://cdn.jsdelivr.net/gh/Chocolate4U/Iran-sing-box-rules@rule-set/geoip-ir.srs
 ```
 
