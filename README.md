@@ -3,6 +3,12 @@
 ## Introduction
 
 This guide explains how to set up Passwall2 on OpenWrt with Sing-box and configure Rule Manager to split Iran and international traffic.
+
+Verified Working Environment:
+.OpenWrt: 24.10.5
+.Passwall2: 26.2.14
+.Sing-box: 1.12.22
+
 ## 1️⃣ Connect to Router
 
 ```bash
